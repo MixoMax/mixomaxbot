@@ -140,7 +140,7 @@ def downlaod_media_from_website(update, context):
 
 
 def print_usage(update, context):
-    help_str = "Welcomt to MixoMax's Telegram download bot\n\nto download a file or magnet use /download <url> <optional: file_name>\n\nto download all media from a website use /download_website <url>"
+    help_str = "Welcome to MixoMax's Telegram download bot\n\nto download a file or magnet use /download <url> <optional: file_name>\n\nto download all media from a website use /download_website <url>"
     
     return update.message.reply_text(help_str)
     
