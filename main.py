@@ -55,8 +55,7 @@ def download_file(update, context):
                 return update.message.reply_text("Invalid magnet URL: " + str(e))
             
             torrent.download(destination="C:\\tmp\\" + file_name)
-            
-        
+            return update.message.reply_text("Torrent downloaded as " + file_name)
         try:
             download(url, "C:\\tmp\\" + file_name)
             

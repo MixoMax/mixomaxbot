@@ -18,3 +18,9 @@ A Telegram Bot to download files from the Internet to this server for streaming 
 /download_website <url>
 ```
 
+## Hosting
+
+this bot is hosted at [t.me/mixomaxbot](https://t.me/mixomaxbot)
+
+## Credits
+
